@@ -59,11 +59,24 @@ if ($num == 5) {
             echo "nenhum";
             break;
     }
+    echo "<br>";
+
+
 //foreach
     $vetor=array(1,2,3);
     foreach ($vetor as $n) {
         echo "O valor do elemento atual é: $n <br>";
     }
+//for
 
+for ($num=1; $num <= 10; $num++)
+{
+  echo "Número: $num <br>";
+}
+
+for ($n=1; $n <= 6; $n++)
+{
+  echo "<h$n>Cabeçalho $n <h$n>";
+}
 
 ?>
