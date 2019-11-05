@@ -79,4 +79,18 @@ for ($n=1; $n <= 6; $n++)
   echo "<h$n>Cabeçalho $n <h$n>";
 }
 
+//while
+$n = 1;
+while ($n <= 10) {
+   echo "Número: $num <br>";
+  $n++;
+}
+
+//while
+$a = 1;
+do{
+  echo "<h$a>Teste $n <h$n>";
+  $n++;
+}while ($a <= 6);
+
 ?>
