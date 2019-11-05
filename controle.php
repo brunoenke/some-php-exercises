@@ -89,8 +89,8 @@ while ($n <= 10) {
 //while
 $a = 1;
 do{
-  echo "<h$a>Teste $n <h$n>";
-  $n++;
+  echo "<h$a>Teste $a <h$a>";
+  $a++;
 }while ($a <= 6);
 
 ?>
